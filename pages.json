@@ -1,0 +1,78 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/planet/planet",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/group/group",
+			"style": {
+			}
+		},{
+			"path": "pages/release/release",
+			"style": {
+			}
+		},{
+			"path": "pages/find/find",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+			}
+		},{
+				"path" : "pages/search/search",
+				"style" : {}
+		},{
+				"path" : "pages/planet/detail",
+				"style" : {}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小怪豆",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color": "#A0522D",
+		"selectedColor": "#B3EE3A",
+		"backgroundColor": "#C8C7CC",
+		"borderStyle": "white",
+		"list": [
+			{
+				"text": "星球",
+				"pagePath": "pages/planet/planet",
+				"iconPath": "static/icons/icon_planet_01.png",
+				"selectedIconPath": "static/icons/icon_planet_02.png"
+			},
+			{
+				"text": "圈子",
+				"pagePath": "pages/group/group",
+				"iconPath": "static/icons/icon_circle_01.png",
+				"selectedIconPath": "static/icons/icon_circle_02.png"
+			},
+			{
+				"text": "发布",
+				"pagePath": "pages/release/release",
+				"iconPath": "static/icons/icon_post_main.png",
+				"selectedIconPath": "static/icons/icon_post_circle.png"
+			},
+			{
+				"text": "发现",
+				"pagePath": "pages/find/find",
+				"iconPath": "static/icons/icon_find_01.png",
+				"selectedIconPath": "static/icons/icon_find_02.png"
+			},
+			{
+				"text": "我们",
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/icons/icon_me_01.png",
+				"selectedIconPath": "static/icons/icon_me_02.png"
+			}
+		]
+	}
+}
